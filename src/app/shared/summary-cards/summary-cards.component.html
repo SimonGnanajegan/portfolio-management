@@ -1,0 +1,6 @@
+<div class="card-grid">
+    <div class="card" *ngFor="let card of cards">
+      <h4>{{ card.title }}</h4>
+      <p>{{ card.value | currency:'INR' }}</p>
+    </div>
+  </div>

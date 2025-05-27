@@ -1,0 +1,8 @@
+
+<ng-container *ngIf="portfolioData$ | async as data">
+  <app-summary-cards [cards]="data.summeryItem"></app-summary-cards>
+  <app-performance-chart [portfolioData]="data.chatData"></app-performance-chart>
+  <app-asset-pie-chart [pieData]="data.assetPieData"></app-asset-pie-chart>
+</ng-container>
+
+

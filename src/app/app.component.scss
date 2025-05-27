@@ -1,0 +1,22 @@
+.sidenav-container {
+    height: 100vh;
+  }
+  .sidenav {
+    padding: 8px;
+    width: 220px;
+  }
+  
+  .main-content {
+    padding: 16px;
+  }
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .title {
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
